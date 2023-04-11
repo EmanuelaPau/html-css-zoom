@@ -26,6 +26,9 @@ main {
 footer {
     height: 150px;
     background-color: #222222;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
 }
 
 a {
@@ -34,15 +37,17 @@ a {
     text-align: center;
 }
 
-a:hover {
+/* a:hover {
     text-decoration: underline;
-}
+} */
 
 div.cameras-container {
     margin: 0 auto;
     width: 90vw;
     height: 70vh;
     background-color: aqua;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 nav.view-control{
@@ -58,3 +63,22 @@ nav.view-control{
     border-radius: .3rem;
     margin-left: 7px;
 }
+
+div.user-camera-container {
+    width: calc((1500px / 7) - 18px);
+    height: 150px;
+    background-color: #4a4a4a;
+    background-image: url("../img/img 0.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+div.user-name {
+    padding: .3rem;
+    background-color:rgba(0, 0, 0, 0.4);;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    font-size: .8rem;
+}
+
