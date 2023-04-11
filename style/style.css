@@ -15,6 +15,7 @@
 
 body {
     font-family: 'Lato', sans-serif;
+    color: white;
 }
 
 main {
@@ -24,11 +25,12 @@ main {
 }
 
 footer {
-    height: 150px;
     background-color: #222222;
     position: fixed;
     bottom: 0;
     width: 100vw;
+    justify-content: space-between;
+    padding: 10px;
 }
 
 a {
@@ -82,3 +84,35 @@ div.user-name {
     font-size: .8rem;
 }
 
+.footer-video-control{
+    padding-bottom: 50px;
+}
+.footer-icon {
+    font-size: 1.6rem;
+    margin-bottom: .5rem;
+}
+
+.footer-icon-text {
+    font-size: .7rem;
+}
+
+div.footer-more-options {
+    font-size: .7rem;
+    align-items: center;
+    padding: 1rem;
+}
+
+div.footer-nav-button {
+    padding: 0 1rem;
+}
+
+div.footer-end-meeting a{
+    color: red;
+    background-color: #4a4a4a;
+    padding: 1rem;
+    font-size: .7rem;
+}
+
+.green {
+    color: #4bc800;
+}
