@@ -52,10 +52,18 @@ div.cameras-container {
 }
 
 nav.view-control{
-    position: absolute;
+    justify-content: flex-end;
+
+    position: fixed;
     top: 3px;
     right: 3px;
+    z-index: 1;
+
+    background-color: #222222;
+    width: 100vw;
     font-size: .8rem;
+    padding: 15px 0 15px;
+
 }
 
 .view-button {
