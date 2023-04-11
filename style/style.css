@@ -16,14 +16,18 @@
 body {
     font-family: 'Lato', sans-serif;
     color: white;
+    background-color: black;
 }
 
 main {
     background-color: black;
-    padding-top: 80px;
+    padding-top: 3vh;
 }
 
 footer {
+    position: absolute;
+    bottom: 0;
+
     background-color: #222222;
     bottom: 0;
     width: 100vw;
@@ -42,24 +46,16 @@ a {
 } */
 
 div.cameras-container {
+    flex-wrap: wrap;
     margin: 0 auto;
     width: 90vw;
-    height: 80vh;
+    height: 85vh;
     justify-content: space-between;
-    flex-wrap: wrap;
-    padding-bottom: 20px;
-    overflow: scroll;
+    overflow-y: scroll;
 }
 
 nav.view-control{
-    justify-content: flex-end;
-
-    position: fixed;
-    top: 3px;
-    right: 3px;
-    z-index: 1;
-
-    background-color: #222222;
+    justify-content: flex-end; 
     width: 100vw;
     font-size: .8rem;
     padding: 15px 0 15px;
