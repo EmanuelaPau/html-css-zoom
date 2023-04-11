@@ -25,7 +25,6 @@ main {
 
 footer {
     background-color: #222222;
-    position: fixed;
     bottom: 0;
     width: 100vw;
     height: 70px;
@@ -45,10 +44,11 @@ a {
 div.cameras-container {
     margin: 0 auto;
     width: 90vw;
-    background-color: aqua;
+    height: 80vh;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding-bottom: 70px;
+    padding-bottom: 20px;
+    overflow: scroll;
 }
 
 nav.view-control{
