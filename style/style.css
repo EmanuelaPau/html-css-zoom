@@ -8,3 +8,21 @@
 body {
     font-family: 'Lato', sans-serif;
 }
+
+main {
+    background-color: black;
+    height: 100vh;
+    padding-top: 80px;
+}
+
+footer {
+    height: 150px;
+    background-color: #222222;
+}
+
+div.cameras-container {
+    margin: 0 auto;
+    width: 90vw;
+    height: 70vh;
+    background-color: aqua;
+}
