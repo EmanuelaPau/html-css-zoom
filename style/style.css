@@ -5,6 +5,14 @@
     box-sizing: border-box;
 }
 
+.relative {
+    position: relative;
+}
+
+.flex {
+    display: flex;
+}
+
 body {
     font-family: 'Lato', sans-serif;
 }
@@ -20,9 +28,33 @@ footer {
     background-color: #222222;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 div.cameras-container {
     margin: 0 auto;
     width: 90vw;
     height: 70vh;
     background-color: aqua;
+}
+
+nav.view-control{
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    font-size: .8rem;
+}
+
+.view-button {
+    background-color: #4a4a4a;
+    padding:.15rem .25rem;
+    border-radius: .3rem;
+    margin-left: 7px;
 }
