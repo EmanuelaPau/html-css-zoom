@@ -47,8 +47,6 @@ a {
 
 div.cameras-container {
     justify-content: center;
-    align-items: flex-start;
-    gap: 5px;
     flex-wrap: wrap;
 
     margin: 0 auto;
@@ -73,13 +71,20 @@ nav.view-control{
     margin-left: 7px;
 }
 
+img {
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+
 div.user-camera-container {
     width: calc((1500px / 7) - 30px);
     height: 130px;
-    background-color: #4a4a4a;
+    border: 3px solid black;
+    /* background-color: #4a4a4a;
     background-image: url("https://picsum.photos/id/500/300");
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
 }
 
 div.user-name {
