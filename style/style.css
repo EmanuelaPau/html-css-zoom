@@ -46,11 +46,15 @@ a {
 } */
 
 div.cameras-container {
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px;
     flex-wrap: wrap;
+
     margin: 0 auto;
+    padding-bottom: 1rem;
     width: 90vw;
     height: 85vh;
-    justify-content: space-between;
     overflow-y: scroll;
 }
 
@@ -70,13 +74,12 @@ nav.view-control{
 }
 
 div.user-camera-container {
-    width: calc((1500px / 7) - 6px);
-    height: 140px;
+    width: calc((1500px / 7) - 30px);
+    height: 130px;
     background-color: #4a4a4a;
     background-image: url("https://picsum.photos/id/500/300");
     background-position: center;
     background-size: cover;
-    margin-bottom: 1rem;
 }
 
 div.user-name {
